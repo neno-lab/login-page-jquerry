@@ -1,0 +1,153 @@
+h1 {
+  font-family: 'Gotu', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 300%;
+}
+
+h2 {
+  font-family: 'Gotu', sans-serif;
+  text-align: center;
+  font-size: 150%;
+}
+
+#login-page {
+  width: 1000px;
+  background-color: yellowgreen;
+  margin: 0 auto;
+}
+
+#circle1 {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: cornflowerblue;
+  position: relative;
+  top: 5px;
+  left: 160px;
+  font-size: 50px;
+  line-height: 235px;
+  font-family: 'Gotu', sans-serif;
+  text-align: center;
+  color: white;
+  float: left;
+}
+
+#circle2 {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: orangered;
+  position: relative;
+  top: 5px;
+  left: 350px;
+  font-size: 50px;
+  line-height: 235px;
+  font-family: 'Gotu', sans-serif;
+  text-align: center;
+  color: white;
+  float: left;
+}
+
+#login-page2 {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.section {
+  font-family: 'Gotu', sans-serif;
+  font-size: 120%;
+  position: relative;
+  top: 40px;
+  margin-bottom: 10px;
+}
+
+label {
+  position: relative;
+  top: 5px;
+  width: 200px;
+  float: left;
+}
+
+input {
+  padding: 8px 8px 12px 5px;
+  border-radius: 4px;
+  border: 1px grey solid;
+  width: 200px;
+}
+
+#button {
+  color: white;
+  border-radius: 15px;
+  background-color: crimson;
+  border: 1px crimson solid;
+  width: 100px;
+  height: 35px;
+  position: relative;
+  left: 140px;
+  top: 15px;
+}
+
+#correct1 {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  top: 8px;
+  display: none;
+}
+
+#wrong1 {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  top: 8px;
+  display: none;
+}
+
+#correct2 {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  top: 8px;
+  display: none;
+}
+
+#wrong2 {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  top: 8px;
+  display: none;
+}
+
+#correct3 {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  top: 8px;
+  display: none;
+}
+
+#wrong3 {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  top: 8px;
+  display: none;
+}
+
+#correct4 {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  top: 8px;
+  display: none;
+}
+
+#wrong4 {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  top: 8px;
+  display: none;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page (using jquerry only)</title>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    ></script>
+    <!--<script src="jquery-ui/jquery-ui.js"></script>
+    <link href="jquery-ui/jquery-ui.css" rel="stylesheet" />-->
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="login-page">
+      <h1>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Gotu&family=Roboto&display=swap"
+          rel="stylesheet"
+        />STRANICA PRIJAVE
+      </h1>
+      <h2>Želite li nastaviti?</h2>
+      <div id="circle1">Da</div>
+      <div id="circle2">Ne</div>
+    </div>
+
+    <div id="login-page2">
+      <div class="section">
+        <label for="email">E-mail</label>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="npr. tvojeIme@mail.com"
+        />
+        <img src="correct.png" id="correct1" />
+        <img src="wrong.png" id="wrong1" />
+      </div>
+
+      <div class="section">
+        <label for="number">Vaš broj</label>
+        <input
+          type="text"
+          name="number"
+          id="number"
+          placeholder="npr. 0911785681"
+        />
+        <img src="correct.png" id="correct2" />
+        <img src="wrong.png" id="wrong2" />
+      </div>
+
+      <div class="section">
+        <label for="password">Vaša lozinka</label>
+        <input type="password" name="password" id="password" />
+        <img src="correct.png" id="correct3" />
+        <img src="wrong.png" id="wrong3" />
+      </div>
+
+      <div class="section">
+        <label for="password">Potvrdite lozinku</label>
+        <input type="password" name="password" id="passwordConfirm" />
+        <img src="correct.png" id="correct4" />
+        <img src="wrong.png" id="wrong4" />
+      </div>
+
+      <div class="section">
+        <button id="button">Prijavi se</button>
+      </div>
+    </div>
+
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>
